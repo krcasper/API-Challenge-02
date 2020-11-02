@@ -20,7 +20,7 @@ return response.json();
 .then(function(data) {
   data.data.map((datum) => {
     const imageElement = document.createElement('img');
-    imageElement.classList.add("img-thumbnail");
+    imageElement.classList.add('img-thumbnail');
     imageElement.src = datum.images.fixed_height.url;
     wrapper.appendChild(imageElement);
   })
