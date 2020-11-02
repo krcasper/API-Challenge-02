@@ -11,7 +11,7 @@ body {
 
 .page-one-master {
     
-    background-image: url(../API-Challenge-02/assets/wood.jpg);
+    background-image: url(../public/assets/wood.jpg);
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
